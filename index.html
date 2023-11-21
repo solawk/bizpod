@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bizpod</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="canv"></canvas>
+  <table id="upTable">
+    <tr>
+      <td id="decelTd">
+        <button onclick="buyUp('decel')"><b>Лубрикант <span id="decelLvlSpan">0</span></b><br>Чтобы шло гладко<br><i><span id="decelPriceSpan">3</span> </i></button>
+      </td>
+      <td id="accelTd">
+        <button onclick="buyUp('accel')"><b>Привод <span id="accelLvlSpan">0</span></b><br>Энергичная раскрутка<br><i><span id="accelPriceSpan">30</span> </i></button>
+      </td>
+      <td id="autoTd">
+        <button onclick="buyUp('auto')"><b>Стример <span id="autoLvlSpan">0</span></b><br>Покрутит словно колёснич<br><i><span id="autoPriceSpan">300</span> </i></button>
+      </td>
+    </tr>
+  </table>
+  <script src="main.js"></script>
+</body>
+</html>
