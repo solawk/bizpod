@@ -222,7 +222,7 @@ function render()
     if (rpm != null)
         ctx.fillText(rpm + " об/мин", w / 2, h * 0.16);
     if (vel === 0)
-        ctx.fillText("Крутите пальцем вокруг ганпода, чтобы раскрутить его", w / 2, h * 0.16);
+        ctx.fillText("Крутите пальцем вокруг ганпода", w / 2, h * 0.16);
 
     ctx.shadowBlur = 0;
 
